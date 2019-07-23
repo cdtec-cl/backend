@@ -1,2 +1,2 @@
 # backend
-En este repositorio se almacenará el código de las APPS en backend
+EEn este repositorio se almacenará el código de Back-End
