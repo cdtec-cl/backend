@@ -22,6 +22,7 @@ class CreatepivotACCOUNTFARM extends Migration
 
             $table->timestamps();
         });
+        
     }
 
     /**
