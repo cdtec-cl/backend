@@ -50,7 +50,7 @@ $router->group(['middleware'=>['auth']], function() use($router){
     ]);
     */
 });
-
+//APP KEY Generador
 $router->post('/key-generate', function () use ($router) {
     return substr(str_shuffle('0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'), 0, 32);
 });
